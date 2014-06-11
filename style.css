@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+body{
+
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    vertical-align: top;
+    color: #ffffff;
+
+    background-color: #000000;
+
+  background-image:url('space.jpg');§
+
+    -moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+}
+
+.bounceInRight {
+  -webkit-animation-name: bounceInRight;
+  animation-name: bounceInRight;
+}
+
+@-webkit-keyframes bounceInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  80% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+p.one{
+  font-size:60;
+  margin-top:-400px;
+}
+p.two{
+  margin-top:-90px;
+  font-size:25;
+}
+td{
+
+}
